@@ -1,0 +1,103 @@
+body { 
+    background-color: #ffe8e8;
+}
+
+header {
+    width: 90%;
+    border: 3px solid #D76C82;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 20px 0 40px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    color:#B03052 ;
+}
+p {
+    font-style: italic;
+
+}
+
+img {
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #D76C82;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: block;
+    border: 3px solid #D76C82;
+    box-shadow: 3px 3px 8px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+button {
+    padding: 8px 25px;
+    color: #B03052;
+    background-color: #ebbaca;
+    border-radius: 20px;
+    border: 1px solid #3D0301;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #fa7f9f;
+    transform: scale(.9);
+    transition: all .3s ease-in-out;
+}
+
+.About {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    padding: 30px;
+}
+
+.About p {
+    padding-left: 40px;
+    margin: auto;
+}
+
+.About img {
+    width: 40%;
+}
+
+div h2 {
+    text-align: center;
+    color: #740938;
+    font-style: italic ;
+}
+
+.image-project {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.image-project img {
+    width: 30%;
+    border-radius: 20%;
+    box-shadow: 2px 2px 10px #740938;
+}
+
+.image-project img:hover {
+    transform: scale(.9);
+    transition: all .3s ease-in-out;
+}
+
+footer {
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #D76C82;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
